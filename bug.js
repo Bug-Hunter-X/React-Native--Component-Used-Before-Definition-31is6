@@ -1,0 +1,1 @@
+This error occurs when you try to use a component before it's been defined. This can happen when using dynamic imports or when components depend on each other in a circular way.  The React Native packager might not have fully processed the component before the render function tries to use it.
